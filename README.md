@@ -35,6 +35,14 @@ To do so, red or green color is added to seat numbers identified as such and com
 where selectors up to cluster are the previous elements, `#cluster-24` identifies the cluster (1), `r1.middle` the row (1), and `text:nth-child(6)` the seat (5).
 Cluster and seat numbers are not intuitively numbered so it's recommended to check/preview changes to identify the correct selector before making any changes.
 
+Eg:
+![](./assets/img/bt-colored-seats.png)
+
+#### Config on Stylus
+
+Mods can be applied globally, to a specific site, or to a specific URL. In the casde of clusters overwview, an example config can look like so:
+![](./assets/img/stylus-extension.png)
+where "All" is a rule set that is applying to all sites and "meta.intra.42.fr/clusters" only applies its rules to that subpage.
 
 ---
 
