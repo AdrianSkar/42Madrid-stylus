@@ -1,6 +1,15 @@
 # 42Madrid-stylus
 A beginner friendly approach to applying custom CSS styles to 42Madrid's intra page
 
+## Brief concept guide
+
+### CSS
+
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) stands for Cascading Style Sheets. It is a language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML, etc.). CSS describes how elements should be rendered on screen or on other media. Webpages define their own style rules and apply them to their HTML elements but users can also apply their own styles to webpages using browser extensions or custom stylesheets.
+
+### Stylus
+
+From [their site](https://add0n.com/stylus.html): _Stylus injects its own CSS into targeted pages and therefore makes you able to override the present design of a webpage. If you know CSS, you can write and create your own styles. Otherwise you can just install styles by other authors from [userstyles.org](userstyles.org) (USO). You can also search for styles for the current site on USO from within the Stylus extension._
 
 ## Contributing
 
