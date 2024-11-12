@@ -11,9 +11,36 @@ A beginner friendly approach to applying custom CSS styles to 42Madrid's intra p
 
 From [their site](https://add0n.com/stylus.html): _Stylus injects its own CSS into targeted pages and therefore makes you able to override the present design of a webpage. If you know CSS, you can write and create your own styles. Otherwise you can just install styles by other authors from [userstyles.org](userstyles.org) (USO). You can also search for styles for the current site on USO from within the Stylus extension._
 
+## Purpose and application on 42 Madrid's intra webpage
+
+### Cluster overviews
+
+#### Thumbnail sizes
+
+Default image size might be small for some users as to easily identify peers, specially on desktop.
+This rule increases size of the thumbnails container to 250% of the original size and applies the `!important` flag to override any other related styles.
+
+`.map-container {width: 250% !important;}`
+
+#### Devices with Bluetooth issues
+
+Some devices might have Bluetooth connectivity issues; in essence, paired headphones output poor sound quality regardless of system settings, even when not paired with other ones or when scan is off (see [bluetoothctl](https://manpages.debian.org/unstable/bluez/bluetoothctl.1.en.html)).
+While some students don't need this feature and/or prefer jack output, the purpose of this rule set is to easily identify which devices have issues and which ones don't and, hopefully, help debug the underlying cause.
+To do so, red or green color is added to seat numbers identified as such and comments added on top to name the specific device and issue.
+
+```css
+/* c1r1s5 bad BT */
+,html body div.page div.page-content div.row div#cluster-map.container-item div.flex-item div.tab-content div#cluster-24.tab-pane.active div.map-container svg g.r1.middle text:nth-child(6)
+```
+where selectors up to cluster are the previous elements, `#cluster-24` identifies the cluster (1), `r1.middle` the row (1), and `text:nth-child(6)` the seat (5).
+Cluster and seat numbers are not intuitively numbered so it's recommended to check/preview changes to identify the correct selector before making any changes.
+
+
+---
+
 ## Contributing
 
-Thank you for your interest in contributing to this project! Here are some simple guidelines to get you started.
+If you'd like to contribute to this project, here are some simple guidelines to get you started.
 
 ### Setting up local development
 
