@@ -9,7 +9,7 @@ A beginner friendly approach to applying custom CSS styles to 42Madrid's intra p
 
 ### Stylus
 
-From [their site](https://add0n.com/stylus.html): _Stylus injects its own CSS into targeted pages and therefore makes you able to override the present design of a webpage. If you know CSS, you can write and create your own styles. Otherwise you can just install styles by other authors from [userstyles.org](userstyles.org) (USO). You can also search for styles for the current site on USO from within the Stylus extension._
+From [their site](https://add0n.com/stylus.html): _Stylus injects its own CSS into targeted pages and therefore makes you able to override the present design of a webpage. If you know CSS, you can write and create your own styles._ Otherwise you can just install styles by other authors from [UserStyles.world](https://userstyles.world/) or search for styles for the current site from within the Stylus extension itself.
 
 ## Purpose and application on 42 Madrid's intra webpage
 
