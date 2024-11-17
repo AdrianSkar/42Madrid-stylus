@@ -41,7 +41,7 @@ Cluster and seat numbers are not intuitively numbered so it's recommended to che
 
 ### Installation
 
-The Stylus extension is available on most browsers and can be installed from their respective extension stores. The style set for this project can be found and installed from [UserStyles.world](https://userstyles.world/style/19331/42madrid-clusters) or in this [repo](./).
+The Stylus extension is available on most browsers (including Firefox for Android) and can be installed from their respective extension stores. The style set for this project can be found and installed from [UserStyles.world](https://userstyles.world/style/19331/42madrid-clusters) or in this [repo](./).
 [Contributions](##Contributing) are welcome and changes updated as soon as possible.
 
 
