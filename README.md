@@ -36,7 +36,7 @@ Applied CSS:
 /* c1r1s5 bad BT */
 #cluster-24 g.r1.middle text:nth-child(6)
 ```
-where selectors up to cluster are the previous elements, `#cluster-24` identifies the cluster (1), `r1.middle` the row (1), and `text:nth-child(6)` the seat (5).
+where `#cluster-24` identifies the cluster (1), `r1.middle` the row (1), and `text:nth-child(6)` the seat (5).
 Cluster and seat numbers are not intuitively numbered so it's recommended to check/preview changes to identify the correct selector before making any changes.
 
 ### Installation
