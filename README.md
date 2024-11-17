@@ -22,21 +22,22 @@ This rule increases size of the thumbnails container to 250% of the original siz
 
 `.map-container {width: 250% !important;}`
 
-#### Devices with Bluetooth issues
+#### Devices unavailable or with other issues
 
-Some devices might have Bluetooth connectivity issues; in essence, paired headphones output poor sound quality regardless of system settings, even when not paired with other ones or when scan is off (see [bluetoothctl](https://manpages.debian.org/unstable/bluez/bluetoothctl.1.en.html)).
-While some students don't need this feature and/or prefer jack output, the purpose of this rule set is to easily identify which devices have issues and which ones don't and, hopefully, help debug the underlying cause.
-To do so, red or green color is added to seat numbers identified as such and comments added on top to name the specific device and issue.
+Some devices might be down temporarily or have other issues like Bluetooth connectivity ones where, for example, paired headphones output poor sound quality regardless of system settings, even when not paired with other ones or when scan is off (see [bluetoothctl](https://manpages.debian.org/unstable/bluez/bluetoothctl.1.en.html)).
+While some students don't need or connect Bluetooth devices, the purpose of this particular rule set is to easily identify which devices have issues and which ones don't and, hopefully, help debug the underlying cause.
+To do so, red, yellow or green color is added to seat numbers identified as such and comments added on top to name the specific device and issue.
 
+Clusters view example:
+![](./assets/img/colored-seats.png)
+
+Applied CSS:
 ```css
 /* c1r1s5 bad BT */
 ,html body div.page div.page-content div.row div#cluster-map.container-item div.flex-item div.tab-content div#cluster-24.tab-pane.active div.map-container svg g.r1.middle text:nth-child(6)
 ```
 where selectors up to cluster are the previous elements, `#cluster-24` identifies the cluster (1), `r1.middle` the row (1), and `text:nth-child(6)` the seat (5).
 Cluster and seat numbers are not intuitively numbered so it's recommended to check/preview changes to identify the correct selector before making any changes.
-
-Eg:
-![](./assets/img/bt-colored-seats.png)
 
 #### Config on Stylus
 
