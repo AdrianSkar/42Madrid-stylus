@@ -39,43 +39,45 @@ hciconfig -a
 /*_______________________________ Have issues ________________________________*/
 
 /*** C1 ***/
-/* c1r1s5 bad BT */
+/* c1r1s5 bad BT connection with headphones */
 #cluster-24 g.r1.middle text:nth-child(6)
-/* c1r3s6 bad BT headphones*/
+/* c1r3s6 bad BT connection with headphones headphones*/
 ,#cluster-24 g.r3.middle text:nth-child(5)
-/* c1r17s2 bad BT */
+/* c1r17s2 bad BT connection with headphones */
 ,#cluster-24 g.r17.middle text:nth-child(4)
-/* c1r2s3 bad BT */
+/* c1r2s3 bad BT connection with headphones */
 ,#cluster-24 g.r2.middle text:nth-child(3)
-/* c1r5s5 bad BT */
+/* c1r5s5 bad BT connection with headphones */
 ,#cluster-24 g.r5.middle text:nth-child(3)
-/* c1r5s5 */
+/* c1r5s5 bad BT connection with headphones */
 ,#cluster-24 g.r5.middle text:nth-child(6)
-/* c1r7s5 */
+/* c1r7s5 bad BT connection with headphones */
 ,#cluster-24 g.r7.middle text:nth-child(6)
-/* c1r11s5 bad BT */
+/* c1r11s5 bad BT connection with headphones */
 ,#cluster-24 g.r11.middle text:nth-child(3)
-/* c1r12s5 bad BT */
+/* c1r12s5 bad BT connection with headphones */
 ,#cluster-24 g.r12.middle text:nth-child(3)
-/* c1r14s6 bad BT */
+/* c1r14s6 bad BT connection with headphones */
 ,#cluster-24 g.r14.middle text:nth-child(6)
-/* c1r16s4 bad BT headphones when KB connected too */
+/* c1r16s4 bad BT connection with headphones headphones when KB connected too */
 ,#cluster-24 g.r16.middle text:nth-child(5)
-/* c1r17s3 */
+/* c1r17s3 bad BT connection with headphones */
 ,#cluster-24 g.r17.middle text:nth-child(2)
 
 /*** C2 ***/
-/* c2r19s2 bad BT */
+/* c2r19s2 bad BT connection with headphones */
 ,#cluster-25 g.r19.middle text:nth-child(4)
+/* c2r19s4 bad BT connection with headphones */
 ,#cluster-25 g.r19.middle text:nth-child(5)
+/* c2r19s6 bad BT connection with headphones */
 ,#cluster-25 g.r19.middle text:nth-child(6)
-/* c2r15s6 */
+/* c2r15s6 bad BT connection with headphones*/
 ,#cluster-25 g.r15.middle text:nth-child(6)
 
 /*** C3 ***/
-/* c3r3s6 bad BT */
+/* c3r3s6 bad BT connection with headphones */
 ,#cluster-26 g.r3.middle text:nth-child(5)
-/* c3r3s5 bad BT */
+/* c3r3s5 bad BT connection with headphones */
 ,#cluster-26 g.r3.middle text:nth-child(6)
 
 
