@@ -1,3 +1,12 @@
+/* ==UserStyle==
+@name         42Madrid clusters
+@version      20241117.16.04
+@namespace    https://userstyles.world/user/AdrianSkar
+@description  Mods for improving clusters view
+@author       AdrianSkar
+==/UserStyle== */
+
+@-moz-document url-prefix("https://meta.intra.42.fr/clusters") {
 .tab-content{overflow-x: hidden;}
 /* Cluster seats size */
 .map-container {width: 250% !important;}
@@ -32,6 +41,8 @@ hciconfig -a
 /*** C1 ***/
 /* c1r1s5 bad BT */
 #cluster-24 g.r1.middle text:nth-child(6)
+/* c1r3s6 bad BT headphones*/
+,#cluster-24 g.r3.middle text:nth-child(5)
 /* c1r17s2 bad BT */
 ,#cluster-24 g.r17.middle text:nth-child(4)
 /* c1r2s3 bad BT */
@@ -100,4 +111,5 @@ hciconfig -a
 
 {
 	fill: green !important;
+}
 }
