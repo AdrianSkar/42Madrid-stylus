@@ -97,6 +97,8 @@ hciconfig -a
 #cluster-24 g.r1.middle text:nth-child(3)
 /* c1r2s1 */
 ,#cluster-24 g.r2.middle text:nth-child(1)
+/* c1r3s3 */
+,#cluster-24 g.r3.middle text:nth-child(3)
 /* c1r4s5 */
 ,#cluster-24 g.r4.middle text:nth-child(6)
 /* c1r4s6 */
