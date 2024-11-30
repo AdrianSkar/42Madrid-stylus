@@ -75,7 +75,7 @@ hciconfig -a
 ,#cluster-25 g.r19.middle text:nth-child(5)
 /* c2r19s6 bad BT connection with headphones */
 ,#cluster-25 g.r19.middle text:nth-child(6)
-/* c2r15s6 bad BT connection with headphones*/
+/* c2r15s6 bad Firefox version (profile message) */
 ,#cluster-25 g.r15.middle text:nth-child(6)
 
 /*** C3 ***/
