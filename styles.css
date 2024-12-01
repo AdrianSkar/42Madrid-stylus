@@ -28,6 +28,9 @@
 /* c1r2s2 needs reinstall https://42born2code.slack.com/archives/CNA2Z9PGD/p1731510902064349?thread_ts=1731510660.165949&cid=CNA2Z9PGD */
 ,#cluster-24 g.r2.middle text:nth-child(2)
 
+/*** C2 ***/
+/* c2r2s5 no device */
+,#cluster-25 g.r2.middle text:nth-child(6)
 {
 	fill: red !important;
 }
