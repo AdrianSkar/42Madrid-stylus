@@ -74,6 +74,8 @@ hciconfig -a
 /*** C2 ***/
 /* c2r1s6 bad Firefox version (profile message) */
 ,#cluster-25 g.r1.middle text:nth-child(5)
+/* c2r9s2 bad/old Firefox version*/
+,#cluster-25 g.r9.middle text:nth-child(2)
 /* c2r15s6 bad Firefox version (profile message) */
 ,#cluster-25 g.r15.middle text:nth-child(6)
 /* c2r17s5 bad BT connection with headphones */
