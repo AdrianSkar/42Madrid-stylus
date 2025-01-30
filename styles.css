@@ -132,6 +132,8 @@ hciconfig -a
 ,#cluster-25 g.r15.middle text:nth-child(5)
 
 /*** C3 ***/
+/* c3r1s1 */
+,#cluster-26 g.r1.middle text:nth-child(1)
 /* c3r2s6 */
 ,#cluster-26 g.r2.middle text:nth-child(5)
 /* c3r6s6 */
